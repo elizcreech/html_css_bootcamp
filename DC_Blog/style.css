@@ -2,12 +2,18 @@ body {
     padding: 40px;
 }
 header {
-    padding: 40px 100px;
-   
-
+    padding: 40px 40px;
+   display: inline-block;
 }
 header > * {
     display: inline-block;
+}
+.left-header * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-header * {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
 }
 
 ul.menu {
