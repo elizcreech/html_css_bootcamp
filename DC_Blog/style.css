@@ -2,13 +2,31 @@ body {
     padding: 20px;
     font-family:Arial, Helvetica, sans-serif;
 }
-header {
+/* header {
     padding: 20px 20px;
+    margin: 25px;
     display: inline-block;
     box-sizing: border-box;
-    width:90%;
+    width:100%;
+} */
+
+#my-main-header {
+    padding: 20px 20px;
+    margin: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    width:100%;  
+}
+.header-image img {
+    margin: 10px;
 }
 
+.left-header-block {
+        padding: 180px;
+        color: black;
+        display: inline-block;
+        box-sizing: border-box;
+    }
 
 ul.menu {
     list-style: none;
@@ -19,12 +37,25 @@ ul.menu li {
     display: inline;
 }
 
+.menu a{
+    text-decoration: none;
+}
+
 .left-header-block{
     float:left;
     width:50%;
     padding:15px; 
     box-sizing:border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-image{
+    float: left;  
+}
+.header-title{
+    float:right;
+    font-size: 20px;
+    line-height: 10px;
 }
 
 .right-header-block{
@@ -36,30 +67,46 @@ ul.menu li {
     color: grey;
 }
 
-.title{
-    text-align:center;
-    
-}
-.blog-date{
-    text-align:center;
+.blog-title{
+    text-align: center;
+    line-height: 8px;
+    font-size: 20px; 
 }
 
-.social-link{
-    color:lightgray;
-    background-color:grey
+.blog-date{
+    font-size: 12px;
     text-align:center;
+    color: lightgray;
+    margin: 30px 0px 5px 0px;
+}
+.social-media{
+    text-align: center;
+}
+#media-button{
+    color:lightgray;
+    background-color: rgb(23, 134, 171);
+    text-align: center;
+    font-size: 10px;
+    margin: 20px;
+    padding: 5px;
 }
 .text-body{
-    widows: 70%;
+    padding: 5px 20px;
+    margin: 20px 100px;
+    width:75%;
 }
 .bottom-line-spec{
-    width:70%; color:lightgray
+    width:70%; 
+    color:lightgray;
 }
 
-ul.bottom-nav {
+ul.bottom-section {
     list-style: none;
     padding: 10;
+    width: 75%;
 }
 ul.bottom-nav li {
+    color: lightgray;
     display: inline;
+    margin: 25px;
 }
